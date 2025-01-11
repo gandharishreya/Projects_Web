@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: pink;
+}
+
+.cal-container{
+    background-color: azure;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.month{
+    margin: 0;
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.day{
+    font-size: 18px;
+    color: gray;
+
+}
+
+.day-num{
+margin: 0;
+    font-size: 50px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.year{
+    margin: 0,20px;
+    font-size: 15px;
+    color: #303030;
+    font-weight: 500px;
+}

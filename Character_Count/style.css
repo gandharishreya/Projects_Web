@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-color:rgb(138, 238, 238);
+    
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(152, 202, 231);
+    width: 400px;
+    height: 200px;
+    padding: 20px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.count{  
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px gray;
+}
+
+.count p{
+    font-size: 18px;
+    color: gray;
+}
+
+.total-count{
+    color:rgb(178, 20, 152);
+}
+
+.remain-count{
+    color:red;
+}

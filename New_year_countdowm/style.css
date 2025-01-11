@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(143, 45, 234);
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.year{
+    font-size: 5em;
+    font-weight: bold;
+  
+}
+
+.count{
+    margin: 20px;
+    display: flex;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count div{
+    margin: 0 15px;
+    font-size: 2.5em;
+    position: relative;
+    font-weight: 500;
+    margin-top: -25px;
+    width: 100px;
+    text-align: center;
+}
+
+.count div::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    font-size: .35em;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.count #day::before{
+    content: "Days";
+}
+
+.count #hour::before{
+    content: "Hours";
+}
+
+.count #minute::before{
+    content: "Minutes";
+}
+
+.count #second::before{
+    content: "Seconds";
+}
