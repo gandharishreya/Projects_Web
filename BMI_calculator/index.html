@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">BMI Calculator</h2>
+
+             <label for="height">Your Height (cm):</label>
+            <input type="number" onchange="convert()" class="input" id="height" placeholder="Enter Height">
+      
+            <label for="weight">Your Weight (kg):</label>
+            <input  type="number" onchange="convert()" class="input" id="weight" placeholder="Enter Weight">
+      
+           <button class="btn">Compute BMI</button>
+      
+           <input  disabled onchange="convert()" class="input" id="bmi-result">
+      
+            <p class="info">Weight Condition: <span class="condi" id="condi"></span></p>
+      
+    <script src="index.js"></script>
+</body>
+</html>
